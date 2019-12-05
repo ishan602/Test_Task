@@ -147,4 +147,32 @@ body {
   -moz-flex-basis: 49%;
 }
 
+@media screen and (max-width: 1024px) and (min-width: 600px) {
+  .cardWrapper {
+    width: 90%;
+  }
+  .cardWrapper .cardWrapper_cardRow {
+    justify-content: space-between;
+  }
+  .cardWrapper .cardWrapper_cardRow .card {
+    flex-basis: 48%;
+    -webkit-flex-basis: 48%;
+    -moz-flex-basis: 48%;
+  }
+}
+@media screen and (max-width: 600px) and (min-width: 300px) {
+  .cardWrapper {
+    width: 90%;
+    margin-top: 23px;
+  }
+  .cardWrapper .cardWrapper_cardRow {
+    justify-content: center;
+  }
+  .cardWrapper .cardWrapper_cardRow .card {
+    flex-basis: 98%;
+    -webkit-flex-basis: 98%;
+    -moz-flex-basis: 98%;
+  }
+}
+
 /*# sourceMappingURL=index.css.map */

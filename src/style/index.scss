@@ -132,3 +132,28 @@ body {
 		}
 	}
 }
+// Media Query For Tablets
+@media screen and (max-width: 1024px) and (min-width: 600px) {
+	.cardWrapper {
+		width: 90%;
+		.cardWrapper_cardRow {
+			justify-content: space-between;
+			.card {
+				@include card-width(48%);
+			}
+		}
+	}
+}
+// Media Query For Mobiles
+@media screen and (max-width: 600px) and (min-width: 300px) {
+	.cardWrapper {
+		width: 90%;
+		margin-top: 23px;
+		.cardWrapper_cardRow {
+			justify-content: center;
+			.card {
+				@include card-width(98%);
+			}
+		}
+	}
+}
