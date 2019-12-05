@@ -1,0 +1,150 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #3e416c;
+}
+
+.cardWrapper {
+  width: 70%;
+  margin: 50px auto 50px auto;
+}
+.cardWrapper .cardWrapper_cardRow {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+}
+.cardWrapper .cardWrapper_cardRow .card {
+  width: 100%;
+  margin: 5px;
+  background-color: #5a5e8b;
+}
+.cardWrapper .cardWrapper_cardRow .card .card_img {
+  width: 100%;
+  height: 200px;
+}
+.cardWrapper .cardWrapper_cardRow .card .info {
+  color: #fff;
+  padding: 20px 19px 14px 20px;
+}
+.cardWrapper .cardWrapper_cardRow .card .info .small_text {
+  font-weight: 300;
+  text-transform: capitalize;
+  font-size: 10px;
+  color: #9a9a9a;
+}
+.cardWrapper .cardWrapper_cardRow .card .info .heading {
+  padding-top: 10px;
+  font-weight: bold;
+  font-size: 26px;
+  text-transform: capitalize;
+  max-width: 350px;
+}
+.cardWrapper .cardWrapper_cardRow .card .info .desc {
+  text-align: left;
+  font-size: 13px;
+  line-height: 1.6;
+  padding-top: 10px;
+}
+.cardWrapper .cardWrapper_cardRow .card .info .extra_desc {
+  padding-top: 10px;
+  font-size: 10px;
+  text-transform: capitalize;
+  color: #9a9a9a;
+}
+.cardWrapper .cardWrapper_cardRow .card .info .extra_desc span:last-child {
+  margin-left: 20px;
+}
+.cardWrapper .cardWrapper_cardRow .card1 {
+  flex-basis: 47%;
+  -webkit-flex-basis: 47%;
+  -moz-flex-basis: 47%;
+}
+.cardWrapper .cardWrapper_cardRow .card2 {
+  flex-basis: 24%;
+  -webkit-flex-basis: 24%;
+  -moz-flex-basis: 24%;
+}
+.cardWrapper .cardWrapper_cardRow .card3 {
+  flex-basis: 24%;
+  -webkit-flex-basis: 24%;
+  -moz-flex-basis: 24%;
+}
+.cardWrapper .cardWrapper_cardRow .card4 {
+  flex-basis: 23%;
+  -webkit-flex-basis: 23%;
+  -moz-flex-basis: 23%;
+}
+.cardWrapper .cardWrapper_cardRow .card4 .card4__info {
+  margin-top: 10px;
+}
+.cardWrapper .cardWrapper_cardRow .card4 .card4__info .small_text {
+  color: #fff;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.cardWrapper .cardWrapper_cardRow .card4 .card4__info .small_text .faXl {
+  font-size: 16px;
+  margin-right: 3px;
+}
+.cardWrapper .cardWrapper_cardRow .card4 .card4__info .small_text .faL {
+  font-size: 11px;
+  margin-right: 3px;
+}
+.cardWrapper .cardWrapper_cardRow .card4 .card4__info .small_text .faS {
+  font-size: 8px;
+}
+.cardWrapper .cardWrapper_cardRow .card4 .card4__info .heading {
+  margin-top: 10px;
+  max-width: 167px;
+  text-transform: none;
+  font-weight: bold;
+  font-size: 36px;
+}
+.cardWrapper .cardWrapper_cardRow .card4 .card4__info .button {
+  cursor: pointer;
+  margin-top: 20px;
+  padding: 8px;
+  display: block;
+  width: fit-content;
+  text-transform: capitalize;
+  font-weight: bold;
+  border-radius: 3px;
+  background-color: #aa8ed9;
+}
+.cardWrapper .cardWrapper_cardRow .card5 {
+  flex-basis: 23.4%;
+  -webkit-flex-basis: 23.4%;
+  -moz-flex-basis: 23.4%;
+}
+.cardWrapper .cardWrapper_cardRow .card6 {
+  flex-basis: 24%;
+  -webkit-flex-basis: 24%;
+  -moz-flex-basis: 24%;
+}
+.cardWrapper .cardWrapper_cardRow .card7 {
+  flex-basis: 24%;
+  -webkit-flex-basis: 24%;
+  -moz-flex-basis: 24%;
+}
+.cardWrapper .cardWrapper_cardRow .card8 {
+  flex-basis: 23%;
+  -webkit-flex-basis: 23%;
+  -moz-flex-basis: 23%;
+}
+.cardWrapper .cardWrapper_cardRow .card9 {
+  flex-basis: 23.4%;
+  -webkit-flex-basis: 23.4%;
+  -moz-flex-basis: 23.4%;
+}
+.cardWrapper .cardWrapper_cardRow .card10 {
+  flex-basis: 49%;
+  -webkit-flex-basis: 49%;
+  -moz-flex-basis: 49%;
+}
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,11 @@
+$body-background: #3e416c;
+$card-background: #5a5e8b;
+$white: #fff;
+$button-background: #aa8ed9;
+$icon-color: rgb(154, 154, 154);
+
+@mixin card-width($value) {
+	flex-basis: $value;
+	-webkit-flex-basis: $value;
+	-moz-flex-basis: $value;
+}

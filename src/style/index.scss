@@ -1,0 +1,134 @@
+@import './variables';
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	background-color: $body-background;
+}
+.cardWrapper {
+	// border: 1px solid red;
+	width: 70%;
+	margin: 50px auto 50px auto;
+	.cardWrapper_cardRow {
+		// width: 100%;
+		// border: 1px solid yellow;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: flex-start;
+		align-content: flex-start;
+		.card {
+			width: 100%;
+			margin: 5px;
+			// padding: 5px;
+			// border: 1px solid rgb(128, 128, 128);
+			background-color: $card-background;
+			.card_img {
+				width: 100%;
+				height: 200px;
+			}
+			.info {
+				color: $white;
+				padding: 20px 19px 14px 20px;
+				.small_text {
+					font-weight: 300;
+					text-transform: capitalize;
+					font-size: 10px;
+					color: $icon-color;
+				}
+				.heading {
+					padding-top: 10px;
+					font-weight: bold;
+					font-size: 26px;
+					text-transform: capitalize;
+					max-width: 350px;
+				}
+				.desc {
+					text-align: left;
+					font-size: 13px;
+					line-height: 1.6;
+					padding-top: 10px;
+				}
+				.extra_desc {
+					padding-top: 10px;
+					font-size: 10px;
+					text-transform: capitalize;
+					color: $icon-color;
+				}
+				.extra_desc span:last-child {
+					margin-left: 20px;
+				}
+			}
+		}
+		.card1 {
+			@include card-width(47%);
+		}
+		.card2 {
+			@include card-width(24%);
+		}
+		.card3 {
+			@include card-width(24%);
+		}
+		.card4 {
+			@include card-width(23%);
+			.card4__info {
+				margin-top: 10px;
+				.small_text {
+					color: $white;
+					display: flex;
+					justify-content: flex-start;
+					align-items: center;
+					.faXl {
+						font-size: 16px;
+						margin-right: 3px;
+					}
+					.faL {
+						font-size: 11px;
+						margin-right: 3px;
+					}
+					.faS {
+						font-size: 8px;
+					}
+				}
+				.heading {
+					margin-top: 10px;
+					max-width: 167px;
+					// border: 1px solid red;
+					text-transform: none;
+					font-weight: bold;
+					font-size: 36px;
+				}
+				.button {
+					cursor: pointer;
+					margin-top: 20px;
+					padding: 8px;
+					display: block;
+					width: fit-content;
+					// border: 1px solid yellow;
+					text-transform: capitalize;
+					font-weight: bold;
+					border-radius: 3px;
+					background-color: $button-background;
+				}
+			}
+		}
+		.card5 {
+			@include card-width(23.4%);
+		}
+		.card6 {
+			@include card-width(24%);
+		}
+		.card7 {
+			@include card-width(24%);
+		}
+		.card8 {
+			@include card-width(23%);
+		}
+		.card9 {
+			@include card-width(23.4%);
+		}
+		.card10 {
+			@include card-width(49%);
+		}
+	}
+}
